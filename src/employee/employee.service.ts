@@ -32,7 +32,7 @@ export class EmployeeService {
       select: ['id', 'name', 'email', 'createdAt', 'updatedAt']
     })
 
-    if (employee) {
+    if (!employee) {
       throw new HttpException('Employee not found', HttpStatus.NOT_FOUND);
     }
 
