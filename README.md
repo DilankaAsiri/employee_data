@@ -15,3 +15,8 @@
     ```
 
 3. Browse to http://localhost:3000/api to view the swagger API documentation 
+
+4. To run unit tests
+    ```
+    npm run test
+    ```
